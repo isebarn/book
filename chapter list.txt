@@ -13,33 +13,51 @@
 			How it works (by example?)
 
 2	Vectors
-		2.1	Vectors 
-			What is a vector? 
+		2.1	Properties
+			What is a vector? How do we write it? 
+			Size/length/norm
+			Direction
 			Transpose 
-			Adding vector
-			Multiplying vectors
-			Linear combinations of vectors
-		2.2	Multiply vectors
-		2.3	Vector length
-		2.4	Vector norm
-		2.5	Vector dot product (v*u = 0 og samsíða)
-		2.6	Vector cross product 
-		2.7	Angle between vectors
+		2.2 Elementary vector operations
+			Multiplication
+			Addition
+			NO division
+		2.3	Vector dot product 
+			What is it/how does it work? 
+			Result is number
+			What does it tell us? 0 = perpendicular
+		2.4	Vector cross product 
+			What is it/how does it work? 
+			Result is vector perpendicular to both a and b
+			Magnitude of result is area of parallelogram formed by a and b
+			Picture
+		2.5	Angle between vectors
+			How to calculate it? Formula
+		2.6	Linear combinations of vectors
+			What is it?
+			Why do we need it? 
 
 3	Matrix
-		3.1 Dimensions
+		3.1 Properties
+			What is it?
+			Dimenstions: columns and rows
 		3.2	Elements
-		3.3	Rows/Columns
-		3.4	Multiply matrix w. vector
-		3.5	Multiply matrix w. matrix
-		3.6	Transposed matrix
-		3.7	Types of Matrices
-				Ferningsfylki
+			Coordinates of elements
+		3.3	Multiply matrix w. vector
+			Size has to match
+			How its done
+		3.4	Multiply matrix w. matrix
+			Size has to match
+			Hot its done
+		3.5	Transposed matrix
+			How to transpose a matrix
+			Properties: transpose of transpose is original
+		3.6	Types of Matrices
+				Square matrix
 				Identity matrix
 				Symmetric matrix
 				Diagonal matrix
 				Upper/Lower triangular matrix
-				Elementary matrix
 
 4	Solving systems of equations using matrices
 		4.1	Ax = b (setting up an equation)
