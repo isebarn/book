@@ -1,0 +1,21 @@
+Point of the book is to get the reader familiar with concepts before seeing them in the classroom
+
+Chapter on how to use the book
+Explanation on the idea of getting familiar with concepts
+
+Chapter - What is linear algebra
+
+Chapters on: 
+
+
+Chapter structure:
+Difficulty level / Abstract level?
+List of Predecesors
+Picture (if appropriate)
+What is this used for (1 or more examples)
+Explanation on a level between "for retards" and "uni student"
+Minimal example (preferably numerical
+Reference to an Octave/Matlab example
+
+Octave/Matlab examples
+Code with small comments

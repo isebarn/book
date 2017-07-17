@@ -1,0 +1,78 @@
+Decide what is too deep or too complex
+
+
+High School
+	Equation
+	System of equations
+	Solve equation by substitution
+
+Vectors
+	Vectors <- transpose, addition, multiplication, linear combinations
+	Multiply vectors
+	Vector length
+	Vector norm
+	Vector dot product (v*u = 0 og samsíða)
+	Vector cross product 
+	Angle between vectors
+
+Matrix
+	Dimensions
+	Elements
+	Rows/Columns
+	Multiply matrix w. vector
+	Multiply matrix w. matrix
+	Ferningsfylki
+	Transposed matrix
+	Identity matrix
+	Symmetric
+	Diagonal matrix
+	Upper/Lower triangular matrix
+
+Solving systems of equations using matrices
+	Ax = b (setting up an equation)
+	linear equations in matrix form (augmented matrix)
+	Matrix operations <- Replacement operations, Scale operations, Swap operations, Row equivalent 
+	Upper echelon form (row echelon form?)
+	Reduced row echelon form
+	Gaussian elimination
+	Gauss-Jordan
+	Gauss-Jordan algorithm
+	free parameter
+	consistend and inconsistent systems
+
+Vector spaces
+	Linearly dependend/independent vectors
+	Define vector spaces
+	Row(A)
+	Col(A)
+	Dim(A)
+	Span 
+	Kernel of A
+	Rank of A
+
+Transformations
+	Mapping (f: X -> Y)
+	Linear mapping
+	Injective, surjective
+	Rotation (linear mapping)
+
+Inverse
+	Inverse matrix (+ Elementary)
+	Det(A)
+	Minors and cofactors
+	LU factorization
+
+Bases
+	Basis
+	Coordinate vector
+	Transition matrix
+	Ordered basis (raðgrunnur)
+	Orthogonal
+	Orthogonal projection
+	Gram-Schmidt to find an orthogonal basis
+
+Eigenvalues and Eigenvectors
+	Eigenvalue
+	Eiginvector
+	Determinants to find eigenvalues
+	Diagonalizeable
