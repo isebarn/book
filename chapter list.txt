@@ -1,19 +1,24 @@
-Decide what is too deep or too complex
-godddd
 
-High School
-	Equation
-	System of equations
-	Solve equation by substitution
 
-Vectors
-	Vectors <- transpose, addition, multiplication, linear combinations
-	Multiply vectors
-	Vector length
-	Vector norm
-	Vector dot product (v*u = 0 og samsíða)
-	Vector cross product 
-	Angle between vectors
+1	High School (revision)
+		1.1	Linear equation
+			What is a linear equation (2 variables, it's graph is a line)
+			Graph (picture)
+			Extend to many variables
+		1.2	System of equations
+			What is it? Many linear equations
+			What does solve mean? Find values for variables that make each equation true. Can't always solve, *in/consistent*
+		1.3	Solve equation by substitution
+			When to use substitution? Few variables
+
+2	Vectors
+		2.1	Vectors <- transpose, addition, multiplication, linear combinations
+		2.2	Multiply vectors
+		2.3	Vector length
+		2.4	Vector norm
+		2.5	Vector dot product (v*u = 0 og samsíða)
+		2.6	Vector cross product 
+		2.7	Angle between vectors
 
 Matrix
 	Dimensions
@@ -38,7 +43,7 @@ Solving systems of equations using matrices
 	Gauss-Jordan
 	Gauss-Jordan algorithm
 	free parameter
-	consistend and inconsistent systems
+	*consistend and inconsistent systems*
 
 Vector spaces
 	Linearly dependend/independent vectors
