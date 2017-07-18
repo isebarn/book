@@ -61,37 +61,58 @@
 
 4	Solving systems of equations using matrices
 		4.1	Ax = b (setting up an equation)
-		4.2	linear equations in matrix form (augmented matrix)
-		4.3	Matrix operations <- Replacement operations, Scale operations, Swap operations, Row equivalent 
-		4.4	Upper echelon form (row echelon form?)
+		4.2	Augmented matrix
+		4.3	Elementary row operations
+			Replacement operation
+			Scale operations
+			Swap operations
+			Row equivalent 
+		4.4	Row echelon form
 		4.5	Reduced row echelon form
 		4.6	Gaussian elimination
+			Transform augmented matrix to row echelon form and use substitution
+			Consistent and inconsistent systems
+			free variables
+			0=0
 		4.7	Gauss-Jordan
-		4.8	Gauss-Jordan algorithm
-		4.9	free parameter
-		4.10  *consistend and inconsistent systems*
+			Transform augmented matrix to reduced row echelon form
+
 
 5	Vector spaces
 		5.1	Linearly dependend/independent vectors
-		5.2	Define vector spaces
-		5.3	Row(A)
-		5.4	Col(A)
-		5.5	Dim(A)
-		5.6	Span 
+			Definition
+			How to check if list of vectors are independent? (bls 16 í glósum)
+		5.2	Vector spaces
+			(formal and intuitive) Definition
+		5.3	Dim(A)
+		5.4	Span 
+		5.5	Row(A)
+		5.6	Col(A)
 		5.7	Kernel of A
 		5.8	Rank of A
+			Definition
+			Properties: t.d. Rank(a) \leq min{m,n}
 
-6	Transformations
+6	Transformations<s
 		6.1	Mapping (f: X -> Y)
+			Definition
+			Domain
+			Range
 		6.2	Linear mapping
+			Definition
 		6.3	Injective, surjective
+			Pictures
 		6.4	Rotation (linear mapping)
 
 7	Inverse
-		7.1	Inverse matrix (+ Elementary)
-		7.2	Det(A)
-		7.3	Minors and cofactors
-		7.4	LU factorization
+		7.1	Inverse matrix 
+			How to find inverse (bls 40 í nótum)
+		7.2	LU factorization
+		7.3	Det(A)
+			Can only be calculated for square matrices
+			How to find determinant
+			Det = 0 -> columns dependent and rows dependent
+
 
 8	Bases
 		8.1	Basis
