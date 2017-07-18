@@ -1,0 +1,10 @@
+\documentclass{article}
+
+% þetta path 'þarf' að vera rétt en það má líka bara deleta því
+% !TeX root = ../../../Mainfile/book.tex
+\begin{document}
+
+\section{Linear equations}
+What are theyyyy
+
+\end{document}
