@@ -9,7 +9,7 @@ Chapters on:
 
 
 Chapter structure:
-Difficulty level / Abstracd level?
+Difficulty level / Abstrakd level?
 List of Predecesors
 Picture (if appropriate)
 What is this used for (1 or more examples)
