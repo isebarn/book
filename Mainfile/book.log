@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  25 JUL 2017 18:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  25 JUL 2017 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -370,35 +370,153 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2012/05/23 Federico Garcia
-) (./book.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip185
+\thm@postskip=\skip186
+\thm@headsep=\skip187
+\dth@everypar=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/euler/euler.sty
+Package: euler 1995/03/05 v2.5
+
+Package: `euler' v2.5 <1995/03/05> (FJ and FMi)
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 35.
+LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
+(Font)              `letters' in the math version `normal' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> U/eur/m/n on input line 35.
+LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
+(Font)              `letters' in the math version `bold' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> U/eur/m/n on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 57.
+\symEulerFraktur=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `EulerFraktur' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 63.
+LaTeX Info: Redefining \oldstylenums on input line 85.
+\symEulerScript=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `EulerScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \aleph on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Re on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \Im on input line 99.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 101.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \neg on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \wedge on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \vee on input line 110.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \sim on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 114.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 116.
+LaTeX Font Info:    Redeclaring math symbol \mathsection on input line 117.
+\symEulerExtension=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \coprod on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \prod on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \sum on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \infty on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \searrow on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 163.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 166.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 168.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 170.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 172.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 174.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 178.
+
+LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 180
+.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 182.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 184.
+\symcmmigroup=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `cmmigroup' in version `bold'
+(Font)                  OML/cmm/m/it --> OML/cmm/b/it on input line 200.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \star on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \flat on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \natural on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \sharp on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \smile on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \frown on input line 211.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
+)
+\c@dfn=\count138
+ (./book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count138
+\scratchcounter=\count139
 \scratchdimen=\dimen149
 \scratchbox=\box29
-\nofMPsegments=\count139
-\nofMParguments=\count140
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count141
+\nofMPsegments=\count140
+\nofMParguments=\count141
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count142
 \MPscratchDim=\dimen150
-\MPnumerator=\count142
-\makeMPintoPDFobject=\count143
-\everyMPtoPDFconversion=\toks24
+\MPnumerator=\count143
+\makeMPintoPDFobject=\count144
+\everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -427,42 +545,4 @@ Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-(../Chapters/High School/Linear Equation/Linear Equation.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-] (./book.aux) ) 
-Here is how much of TeX's memory you used:
- 4812 strings out of 493029
- 66488 string characters out of 6136234
- 153167 words of memory out of 5000000
- 8338 multiletter control sequences out of 15000+600000
- 7634 words of font info for 27 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,10n,23p,237b,215s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on book.pdf (1 page, 26761 bytes).
-PDF statistics:
- 20 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(etexcmds)             In the latter case
