@@ -1,0 +1,78 @@
+\documentclass{article}
+\graphicspath{{/home/david/Book/Chapters/1.Revision/LinearEquation/pic/}}
+
+% !TeX root = ../../../Mainfile/book.tex
+
+
+
+\begin{document}
+
+
+\section{System of equations}
+
+\begin{align*}
+& 2x_1 + x_2 = 17\\
+& x_1 + 3x_2 = 26
+\end{align*}
+
+The equations above are an example of a \textbf{system of equations}.
+
+We want to solve these systems by finding the correct values for the \textit{variables}, in this case, $x_1$ and $x_2$, so that both equations work out.
+
+We could start by \textit{guessing} that $x_1 = 3$ and $x_2 = 5$, which would give us 
+
+\begin{align*}
+& 2\cdot 3 + 2 = 8 \color{rooj} \neq 17\\
+& \color{black} 3 + 3\cdot 5 = 18 \color{rooj} \neq 26 \color{black}
+\end{align*}
+
+This is far from correct, we need the \textbf{the substitution method}.
+
+The substitution method consists of \textbf{two} steps, that you use over and over again until the system has been solved. These steps are:
+
+\begin{enumerate}
+\color{blou} \item Isolating a variable 
+\color{rooj} \item Substitution 
+\color{groen} \item Simplification
+\end{enumerate}
+
+Lets take another look at our system
+
+\begin{align}
+& 2x_1 + x_2 = 17\\ 
+& x_1 + 3x_2 = 26 
+\end{align}
+
+and solve it using the substitution method.
+
+\begin{enumerate}
+\item \color{blou} isolate the $x_1$ from (4), $x_1 = 26 - 3x_2$  \color{black}
+\item  \color{rooj} substitute $x_1$ into (3), $2 (26 - 3x_2) + x_2 = 17$ \color{black}
+\item now the system looks like
+\begin{align}
+& 2 (26 - 3x_2) + x_2 = 17 \\ 
+& x_1 + 3x_2 = 26      
+\end{align}
+\item \color{groen} which simplifies to  \color{black}
+\begin{align}
+& x_2 = 7 \\ 
+& x_1 + 3x_2 = 26      
+\end{align}
+\item \color{rooj} now we just insert $x_2$ into (8)  to get \color{black}
+\begin{align}
+& x_2 = 7 \\ 
+& x_1 + 21 = 26      
+\end{align}
+\item \color{groen} so (8) simplifies to $\mathbf{x_1 = 5}$ \color{black}
+
+\end{enumerate}
+
+Now its your turn to solve the following 
+
+\begin{align*}
+& 6x_1 + 2x_2 = 70 \\
+& 3x_1 + 3x_2 = 45 
+\end{align*}
+
+
+\end{document}
