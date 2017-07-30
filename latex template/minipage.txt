@@ -1,0 +1,13 @@
+\begin{minipage}{0.45\textwidth}
+\begin{figure}[H]
+\includegraphics[width = 0.9\linewidth]{1.png}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}{0.55\textwidth}
+\begin{flushleft}
+We can easily draw 2-dimensional vectors on an xy-plane. Here the vector $\vec{v}$ appears twice, one starting from $(0,0)$ and the other from $(2,-4)$.
+\end{flushleft}
+\end{minipage}
+bfrm:=\begin{frame}
+${1}
+\end{frame}

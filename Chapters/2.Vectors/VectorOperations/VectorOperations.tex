@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{article} 
 
 \graphicspath{{/home/david/Book/Chapters/2.Vectors/VectorOperations/pic/}}
 % !TeX root = ../../../Mainfile/book.tex
@@ -12,8 +12,8 @@
 \color{black}
 
 \begin{align*}
-&10 \cdot \vect{3 , 5} & \color{rooj} \textrm{scalar multiplication} \color{black} \\ 
-&\vect{3 , 5}^T  & \color{pers} \textrm{transpose} \color{black}\\ 
+&3 \cdot \vect{1 , 2} & \color{rooj} \textrm{scalar multiplication} \color{black} \\ 
+&\vect{1 , 2}^T  & \color{pers} \textrm{transpose} \color{black}\\ 
 &\vect{2 , 1} + \vect{1 , 2} &  \color{groen} \textrm{addition}\color{black}\\
 &\vect{2 , 1} - \vect{1 , 2} &  \color{blou} \textrm{subtraction}\color{black}
 \end{align*}
@@ -21,35 +21,37 @@
 \paragraph{Operations: } These 4 operations are the most elementary and common operations you will be using in linear algebra. They are 
 
 \begin{itemize}
-\item \color{rooj}  Scalar multiplication \color{black} simply multiplies every element of the vector with the scalar
+\item \color{rooj}  Scalar multiplication \color{black} simply multiply every element of the vector with the scalar.
 \[
 3 \cdot \vect{1 , 2} = \vect{3 , 6}
 \]
 
 \begin{minipage}{0.45\textwidth}
 \begin{flushleft}
-Scalar multiplications simply lengthens the vector. 
+All this operation does is lengthen the vector. 
 \end{flushleft}
 \end{minipage} \hfill
 \begin{minipage}{0.45\textwidth}
 \begin{figure}[H]
-\includegraphics[width = 0.5\linewidth]{3.png}
+\includegraphics[width = 0.45\linewidth]{3.png}
 \end{figure}
 \end{minipage}
 \item
 
- \color{pers} Transposing \color{black} a vector is simply converting it from a row-vector to a colum-vector, or a column-vector back to a row-vector
+ \color{pers} Transposing \color{black} a vector is simply converting it from a row-vector to a colum-vector, or a column-vector back to a row-vector.
 \[
 \vect{1 , 2}^T = \icol{1 \\ 2}
 \]
 
 \item \color{groen} Adding \color{black} two vectors is straighforward 
 \[
-\vect{1 , 2} + \vect{2 , 1} = \vect{3  , 3}
+\vect{2 , 1} + \vect{1 , 2} = \vect{3  , 3}
 \]
 
 \begin{minipage}{0.45\textwidth}
-Visually, when adding two vectors you simply add one to the end of the other.
+\begin{flushleft}
+Visually, when adding two vectors you simply add one to the end of the other. Note that it does not matter in which order you add them. 
+\end{flushleft}
 \end{minipage} \hfill
 \begin{minipage}{0.45\textwidth}
 \begin{figure}[H]
@@ -63,7 +65,10 @@ Visually, when adding two vectors you simply add one to the end of the other.
 \]
 
 \begin{minipage}{0.45\textwidth}
-
+\begin{flushleft}
+Here we negate the vector we are subtracting (the red one in this case) and just like addition we add it to the end of the other. 
+	
+\end{flushleft}
 \end{minipage} \hfill
 \begin{minipage}{0.45\textwidth}
 \begin{flushleft}
@@ -78,10 +83,8 @@ Visually, when adding two vectors you simply add one to the end of the other.
 \paragraph{Exercice: } 
 Here are 3 vectors, $u = \vect{3 , 5}, v = \vect{8 , 10}, p = \vect{10, 1, 1}$, can you add them together?
 
-\[
-\vect{1, 7} 
-\] 
 
 
+\end{document}\begin{beamerboxesrounded}[shadow=true]{}
 
-\end{document}
+\end{beamerboxesrounded}
