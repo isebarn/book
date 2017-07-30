@@ -481,7 +481,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2"
-     inkscape:cx="47.095643"
+     inkscape:cx="-29.154357"
      inkscape:cy="153.61482"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -509,7 +509,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -634,17 +634,7 @@
        id="path4374"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker4638)"
-       d="M 135.82504,53.680072 95.825037,133.68007"
-       id="path4376"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#0000ff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4641-3)"
-       d="m 214.34028,14.087044 -80,39.999998"
-       id="path4374-7"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4, 4;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4638-5)"
+       style="fill:none;fill-rule:evenodd;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#marker4638-5)"
        d="m 215.82504,13.680068 -40,80.000002"
        id="path4376-5"
        inkscape:connector-curvature="0" />
@@ -678,13 +668,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="95.825043"
-       y="43.680069"
+       x="205.82504"
+       y="63.680069"
        id="text4719"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4721"
-         x="95.825043"
-         y="43.680069">(1,2)</tspan></text>
+         x="205.82504"
+         y="63.680069">(1,2)</tspan></text>
   </g>
 </svg>
