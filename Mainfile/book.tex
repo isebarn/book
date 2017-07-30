@@ -22,6 +22,7 @@
 \definecolor{blou}{rgb}{0.278, 0.133, 0.639}
 \definecolor{rooj}{rgb}{0.933, 0.125,0.106}
 \definecolor{groen}{rgb}{0.082, 0.733, 0.125} 
+\definecolor{pers}{rgb}{0.525, 0.18, 0.561} 
 \definecolor{theorem}{rgb}{0.345, 0.345, 0.345}
 \definecolor{sectioncolor}{rgb}{0.082, 0.121, 0.171}
 
@@ -34,9 +35,14 @@
 \newcommand{\colorsectionnonumber}[1]{%
     \colorbox{sectioncolor}{\parbox{\dimexpr\textwidth-2\fboxsep}{#1}}}
 
+% inline row vector
+\newcommand{\irow}[1]{
+  \begin{matrix}[#1]\end{matrix}%
+}
 
-
-
+\newcommand{\icol}[1]{% inline column vector
+  \left[\begin{matrix}#1\end{matrix}\right]%
+}
 
 
 
@@ -67,5 +73,9 @@
 
 
 \subfile{"../Chapters/2.Vectors/Vectors/VectorProperties.tex"}
+
+\newpage
+
+\subfile{"../Chapters/2.Vectors/VectorOperations/VectorOperations.tex"}
 
 \end{document}
