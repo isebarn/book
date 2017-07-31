@@ -85,7 +85,7 @@ The dot product can even help us find the exact angle between the vectors using 
 Let $\vec{u} = \vect{-4,2,8}$ and $\vec{v} = \vect{-3,5,1}$.
 
 \begin{enumerate}
-	\item Calculate the dot product $\vec{u}\bullet\vec{v}$.
+	\item \textit{Calculate the dot product $\vec{u}\bullet\vec{v}$.}
 
 	
 	\begin{align*}
@@ -94,34 +94,40 @@ Let $\vec{u} = \vect{-4,2,8}$ and $\vec{v} = \vect{-3,5,1}$.
 	&=30
 	\end{align*}
 
-	\item What does the dot product tell us about the angle between the vectors? 
+	\item \textit{What does the dot product tell us about the angle between the vectors?}
 
 	The dot product is positive so the angle between the vectors is less than $90^\circ$
 	
-	\item Calculate the exact angle between these two vectors. 
+	\item \textit{Calculate the exact angle between these two vectors.} 
 
 	To do this we need the dot product of the vectors, which is $30$, as well as the product of their lengths. Let's find that: 
 
 	\[
-	|\vec{u}| = \sqrt{(-4)^2+2^2+8^2} = \sqrt{84} \approx 
+	|\vec{u}| = \sqrt{(-4)^2+2^2+8^2} = \sqrt{84} 
+	\]
+	\[
+	|\vec{v}| = \sqrt{(-3)^2+5^2+1^2} = \sqrt{35} 
 	\]
 
+	so $|\vec{u}|\cdot |\vec{v}| = \sqrt{84}\cdot\sqrt{35}$. 
 
+	Plugging these values into our equation gives us 
+	
+	\[
+	\cos \theta_{uv} = \frac{30}{\sqrt{84}\cdot\sqrt{35}}
+	\]
+
+	Now we can find $\theta_{uv}$: 
+
+	\[
+	\theta_{uv}=\arccos\Bigg(\frac{30}{\sqrt{84}\cdot\sqrt{35}}\Bigg) \approx 56.4^\circ
+	\]
 \end{enumerate}
 
 
 
 
-\paragraph{Mynd?} Always try to have a visual along with the example
-
-\paragraph{Exercise:} Exercise for the reader
-
-
-		%2.3	Vector dot product 
-%
-			%What is it/how does it work? 
-			%Result is number
-			%What does it tell us? 0 = perpendicular
+\paragraph{Exercise:} Do the same for $\vec{u}=\vect{5,3,-2}$ and $\vec{v}=\vect{2,-2,-1}$.
 
 
 \end{document}
