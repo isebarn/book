@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  31 JUL 2017 18:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  31 JUL 2017 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1099,9 +1099,9 @@ pe png)
 Package pdftex.def Info: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/4.p
 ng used on input line 71.
 (pdftex.def)             Requested size: 120.64365pt x 186.52193pt.
-)
+
 [13 </home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png> </home/david/Boo
-k/Chapters/2.Vectors/DotProduct/pic/4.png>]
+k/Chapters/2.Vectors/DotProduct/pic/4.png>]) [14]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
  (./book.aux)
@@ -1116,13 +1116,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
  ) 
 Here is how much of TeX's memory you used:
- 17477 strings out of 493029
- 294833 string characters out of 6136234
+ 17481 strings out of 493029
+ 294861 string characters out of 6136234
  373607 words of memory out of 5000000
  20758 multiletter control sequences out of 15000+600000
  67787 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,15n,40p,10381b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,15n,40p,10381b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/droid/droid-01.enc}{/usr/share
 /texlive/texmf-dist/fonts/enc/dvips/droid/droid-03.enc}{/usr/share/texmf/fonts/
 enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
@@ -1139,10 +1139,10 @@ dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/pu
 blic/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
 00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (13 pages, 199265 bytes).
+Output written on book.pdf (14 pages, 200948 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
- 36 named destinations out of 1000 (max. 500000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 40 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

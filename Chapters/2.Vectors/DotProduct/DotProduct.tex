@@ -22,13 +22,13 @@
 
 \paragraph{Dot product:} Another useful \textbf{vector operation} is the \textbf{dot product}. Take the product of corresponding elements, and then add together the result. 
 
-\color{theorem} \paragraph{Definition:} \textit{Two vectors $u=\vect{u_1, u_2,\dots,u_n}$ and $v=\vect{v_1,v_2,\dots,v_n}$, of the same dimension, \textbf{n}, have the dot product 
+\color{theorem} \paragraph{Definition:} \textit{Two vectors $u=\vect{u_1, u_2,\dots,u_n}$ and $v=\vect{v_1,v_2,\dots,v_n}$, of the same dimension (\textbf{n}) have the dot product 
 \[
 \vec{u}\bullet \vec{v} = u_1\cdot v_1 + u_2\cdot v_2+ \dots u_n\cdot v_n 
 \]
 or
 \[
-\vec{u}\bullet \vec{v} = |u|\cdot |v| \cos (\theta_{uv})
+\vec{u}\bullet \vec{v} = |\vec{u}|\cdot |\vec{v}| \cos \theta_{uv}
 \]
 where $\theta_{uv}$ is the angle between $\vec{u}$ and $\vec{v}$.
 } \color{black}
@@ -74,9 +74,43 @@ where $\theta_{uv}$ is the angle between $\vec{u}$ and $\vec{v}$.
 
 \
 
-The dot product can even help us find the exact angle between the vectors using the equation in the definition above. 
+The dot product can even help us find the exact angle between the vectors using the equation in the definition above. If we isolate $\cos \theta_{uv}$ in the equation we get 
 
-\paragraph{Example:} "We can use \textbf{this} to calculate \textbf{that}", followed by an example
+\[
+\cos\theta_{uv}=\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|\cdot|\vec{v}|}
+\]
+
+\paragraph{Examples:} 
+
+Let $\vec{u} = \vect{-4,2,8}$ and $\vec{v} = \vect{-3,5,1}$.
+
+\begin{enumerate}
+	\item Calculate the dot product $\vec{u}\bullet\vec{v}$.
+
+	
+	\begin{align*}
+	\vec{u}\bullet\vec{v} &= (-4\cdot -3)+(2\cdot 5)+(8\cdot 1)\\
+	&= 12+10+8\\
+	&=30
+	\end{align*}
+
+	\item What does the dot product tell us about the angle between the vectors? 
+
+	The dot product is positive so the angle between the vectors is less than $90^\circ$
+	
+	\item Calculate the exact angle between these two vectors. 
+
+	To do this we need the dot product of the vectors, which is $30$, as well as the product of their lengths. Let's find that: 
+
+	\[
+	|\vec{u}| = \sqrt{(-4)^2+2^2+8^2} = \sqrt{84} \approx 
+	\]
+
+
+\end{enumerate}
+
+
+
 
 \paragraph{Mynd?} Always try to have a visual along with the example
 
