@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  31 JUL 2017 19:31
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.30)  31 JUL 2017 19:20
+>>>>>>> 71fc055b35240fc746ca849b154c65dc213ecb92
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/david/Book/Mainfile/book.tex
-(/home/david/Book/Mainfile/book.tex
+**book.tex
+(./book.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
@@ -1008,14 +1012,14 @@ LaTeX Font Info:    Font shape `T1/fds/bx/n' in size <12> not available
 (Font)              Font shape `T1/fds/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `T1/fds/m/it' in size <12> not available
 (Font)              Font shape `T1/fds/m/sl' tried instead on input line 22.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/home/rakel/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    Font shape `T1/fds/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/fds/b/n' tried instead on input line 82.
 
 (../Chapters/1.Revision/LinearEquation/Linear Equation.tex
-<../Chapters/1.Revision/LinearEquation/pic/1.png, id=26, 506.693pt x 506.693pt>
+<../Chapters/1.Revision/LinearEquation/pic/1.png, id=28, 506.693pt x 506.693pt>
 File: ../Chapters/1.Revision/LinearEquation/pic/1.png Graphic file (type png)
 <use ../Chapters/1.Revision/LinearEquation/pic/1.png>
 Package pdftex.def Info: ../Chapters/1.Revision/LinearEquation/pic/1.png used o
@@ -1025,7 +1029,7 @@ n input line 36.
 (../Chapters/1.Revision/MultipleVariables/Multiple Variables.tex [4]) [5]
 (../Chapters/1.Revision/SystemOfEquations/SystemOfEquations.tex [6])
 (../Chapters/2.Vectors/Vectors/VectorProperties.tex [7]
-<../Chapters/2.Vectors/Vectors/pic/1.png, id=79, 309.958pt x 321.2pt>
+<../Chapters/2.Vectors/Vectors/pic/1.png, id=82, 309.958pt x 321.2pt>
 File: ../Chapters/2.Vectors/Vectors/pic/1.png Graphic file (type png)
 
 <use ../Chapters/2.Vectors/Vectors/pic/1.png>
@@ -1038,6 +1042,7 @@ LaTeX Font Info:    Try loading font information for OMS+fds on input line 24.
 LaTeX Font Info:    No file OMSfds.fd. on input line 24.
 
 
+<<<<<<< HEAD
 LaTeX Font Warning: Font shape `OMS/fds/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 24.
@@ -1146,3 +1151,6 @@ PDF statistics:
  40 named destinations out of 1000 (max. 500000)
  57 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+LaTeX Font Warnin
+>>>>>>> 71fc055b35240fc746ca849b154c65dc213ecb92
