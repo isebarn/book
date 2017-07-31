@@ -24,7 +24,6 @@
 			What is a vector? How do we write it? 
 			Size/length/norm
 			Direction
-			Transpose 
 		2.2 Elementary vector operations
 			Multiplication
 			Addition
@@ -34,13 +33,13 @@
 			What is it/how does it work? 
 			Result is number
 			What does it tell us? 0 = perpendicular
+		2.5	Angle between vectors
+			How to calculate it? Formula
 		2.4	Vector cross product 
 			What is it/how does it work? 
 			Result is vector perpendicular to both a and b
 			Magnitude of result is area of parallelogram formed by a and b
 			Picture
-		2.5	Angle between vectors
-			How to calculate it? Formula
 		2.6	Linear combinations of vectors
 			What is it?
 			Why do we need it? 
