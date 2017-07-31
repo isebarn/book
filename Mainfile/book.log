@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  31 JUL 2017 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.30)  31 JUL 2017 19:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/david/Book/Mainfile/book.tex
-(/home/david/Book/Mainfile/book.tex
+**book.tex
+(./book.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
@@ -1008,14 +1008,14 @@ LaTeX Font Info:    Font shape `T1/fds/bx/n' in size <12> not available
 (Font)              Font shape `T1/fds/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `T1/fds/m/it' in size <12> not available
 (Font)              Font shape `T1/fds/m/sl' tried instead on input line 22.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+) [1{/home/rakel/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 LaTeX Font Info:    Font shape `T1/fds/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/fds/b/n' tried instead on input line 82.
 
 (../Chapters/1.Revision/LinearEquation/Linear Equation.tex
-<../Chapters/1.Revision/LinearEquation/pic/1.png, id=26, 506.693pt x 506.693pt>
+<../Chapters/1.Revision/LinearEquation/pic/1.png, id=28, 506.693pt x 506.693pt>
 File: ../Chapters/1.Revision/LinearEquation/pic/1.png Graphic file (type png)
 <use ../Chapters/1.Revision/LinearEquation/pic/1.png>
 Package pdftex.def Info: ../Chapters/1.Revision/LinearEquation/pic/1.png used o
@@ -1025,7 +1025,7 @@ n input line 36.
 (../Chapters/1.Revision/MultipleVariables/Multiple Variables.tex [4]) [5]
 (../Chapters/1.Revision/SystemOfEquations/SystemOfEquations.tex [6])
 (../Chapters/2.Vectors/Vectors/VectorProperties.tex [7]
-<../Chapters/2.Vectors/Vectors/pic/1.png, id=79, 309.958pt x 321.2pt>
+<../Chapters/2.Vectors/Vectors/pic/1.png, id=82, 309.958pt x 321.2pt>
 File: ../Chapters/2.Vectors/Vectors/pic/1.png Graphic file (type png)
 
 <use ../Chapters/2.Vectors/Vectors/pic/1.png>
@@ -1038,111 +1038,4 @@ LaTeX Font Info:    Try loading font information for OMS+fds on input line 24.
 LaTeX Font Info:    No file OMSfds.fd. on input line 24.
 
 
-LaTeX Font Warning: Font shape `OMS/fds/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 24.
-
-
-<../Chapters/2.Vectors/VectorOperations/pic/3.png, id=94, 139.722pt x 232.87pt>
-File: ../Chapters/2.Vectors/VectorOperations/pic/3.png Graphic file (type png)
-<use ../Chapters/2.Vectors/VectorOperations/pic/3.png>
-Package pdftex.def Info: ../Chapters/2.Vectors/VectorOperations/pic/3.png used 
-on input line 36.
-(pdftex.def)             Requested size: 77.55644pt x 129.26213pt.
- [10 <../Chapters/2.Vectors/VectorOperations/pic/3.png>]
-<../Chapters/2.Vectors/VectorOperations/pic/1.png, id=100, 149.358pt x 128.48pt
->
-File: ../Chapters/2.Vectors/VectorOperations/pic/1.png Graphic file (type png)
- <use ../Chapters/2.Vectors/VectorOperations/pic/1.png>
-Package pdftex.def Info: ../Chapters/2.Vectors/VectorOperations/pic/1.png used 
-on input line 58.
-(pdftex.def)             Requested size: 103.41034pt x 88.9571pt.
-
-<../Chapters/2.Vectors/VectorOperations/pic/2.png, id=101, 136.51pt x 146.146pt
->
-File: ../Chapters/2.Vectors/VectorOperations/pic/2.png Graphic file (type png)
- <use ../Chapters/2.Vectors/VectorOperations/pic/2.png>
-Package pdftex.def Info: ../Chapters/2.Vectors/VectorOperations/pic/2.png used 
-on input line 76.
-(pdftex.def)             Requested size: 103.41034pt x 110.71083pt.
-) [11 <../Chapters/2.Vectors/VectorOperations/pic/1.png> <../Chapters/2.Vectors
-/VectorOperations/pic/2.png>] (../Chapters/2.Vectors/DotProduct/DotProduct.tex
-LaTeX Font Info:    Font shape `T1/fds/bx/it' in size <12> not available
-(Font)              Font shape `T1/fds/b/it' tried instead on input line 34.
-LaTeX Font Info:    Font shape `T1/fds/b/it' in size <12> not available
-(Font)              Font shape `T1/fds/b/sl' tried instead on input line 34.
-
-</home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png, id=108, 138.116pt x 
-132.495pt>
-File: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png Graphic file (ty
-pe png)
- <use /home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png>
-Package pdftex.def Info: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.p
-ng used on input line 46.
-(pdftex.def)             Requested size: 120.64365pt x 115.73874pt.
-
-</home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png, id=109, 202.356pt x 
-130.086pt>
-File: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png Graphic file (ty
-pe png)
- <use /home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png>
-Package pdftex.def Info: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.p
-ng used on input line 59.
-(pdftex.def)             Requested size: 120.64365pt x 77.55794pt.
-
-[12 </home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png>]
-</home/david/Book/Chapters/2.Vectors/DotProduct/pic/4.png, id=117, 122.056pt x 
-188.705pt>
-File: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/4.png Graphic file (ty
-pe png)
- <use /home/david/Book/Chapters/2.Vectors/DotProduct/pic/4.png>
-Package pdftex.def Info: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/4.p
-ng used on input line 71.
-(pdftex.def)             Requested size: 120.64365pt x 186.52193pt.
-
-[13 </home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png> </home/david/Boo
-k/Chapters/2.Vectors/DotProduct/pic/4.png>]) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
- (./book.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
-Package rerunfilecheck Info: File `book.out' has not changed.
-(rerunfilecheck)             Checksum: 40150706BF970162B74B19321E85D7A6;89.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
- ) 
-Here is how much of TeX's memory you used:
- 17481 strings out of 493029
- 294861 string characters out of 6136234
- 373607 words of memory out of 5000000
- 20758 multiletter control sequences out of 15000+600000
- 67787 words of font info for 94 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 35i,15n,40p,10381b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/droid/droid-01.enc}{/usr/share
-/texlive/texmf-dist/fonts/enc/dvips/droid/droid-03.enc}{/usr/share/texmf/fonts/
-enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/droid/DroidSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/droid/DroidSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/dr
-oid/DroidSans.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/droid/Droid
-Sans.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (14 pages, 200948 bytes).
-PDF statistics:
- 199 PDF objects out of 1000 (max. 8388607)
- 150 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+LaTeX Font Warnin
