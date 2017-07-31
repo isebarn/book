@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  31 JUL 2017 17:56
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.25)  30 JUL 2017 18:10
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  30 JUL 2017 17:41
+>>>>>>> e3a81a9d94edbdce97ba430af47c7784dbbd7f1a
+>>>>>>> 292528e3407248684acef999b1050e8045c25b8f
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/david/Book/Mainfile/book.tex
-(/home/david/Book/Mainfile/book.tex
+**book.tex
+(./book.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
 Document Class: memoir 2015/07/08 v3.7e configurable book, report, article docu
 ment class
@@ -18,10 +26,8 @@ ment class
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
-Package: ifetex 2011/12/15 v1.2 ifetex
+Class memoir Info: An `ifetex' package is being emulated on input line 265.
 
-(/usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
@@ -311,6 +317,7 @@ Package delarray [2008/07/23] emulated by memoir.
 Package enumerate [2008/07/23] emulated by memoir.
 Package epigraph [2008/07/23] emulated by memoir.
 Package ifmtarg [2008/07/23] emulated by memoir.
+Package ifetex [2008/07/23] emulated by memoir.
 Package index [2008/07/23] emulated by memoir.
 Package makeidx [2008/07/23] emulated by memoir.
 Package moreverb [2008/07/23] emulated by memoir.
@@ -961,7 +968,14 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  T1/cmr/m/n --> T1/cmr/bx/n on input line 76.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 76.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+<<<<<<< HEAD
 (Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 76.
+=======
+(Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 73.
+<<<<<<< HEAD
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in ver
+=======
+>>>>>>> 292528e3407248684acef999b1050e8045c25b8f
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 76.
 LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 76.
@@ -1122,3 +1136,4 @@ PDF statistics:
  36 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+>>>>>>> e3a81a9d94edbdce97ba430af47c7784dbbd7f1a
