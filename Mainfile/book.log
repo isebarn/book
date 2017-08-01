@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.18)  31 JUL 2017 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.7.30)  1 AUG 2017 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/home/david/Book/Mainfile/book.tex
-(/home/david/Book/Mainfile/book.tex
+**book.tex
+(./book.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
@@ -573,20 +573,6 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks35
 \@floatcapt=\box32
 )
-(/usr/share/texlive/texmf-dist/tex/latex/droid/droidsans.sty
-Package: droidsans 2011/09/11 Droid Sans
-
-(/usr/share/texlive/texmf-dist/tex/latex/slantsc/slantsc.sty
-Package: slantsc 2012/01/01 v2.11 Provide Slanted an Italic Small Caps
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-LaTeX Info: Redefining \upshape on input line 35.
-LaTeX Info: Redefining \slshape on input line 45.
-LaTeX Info: Redefining \itshape on input line 55.
-LaTeX Info: Redefining \scshape on input line 65.
-))
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
@@ -764,7 +750,7 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining command \vect with sig. 'som' on line 60.
+. Defining command \vect with sig. 'som' on line 56.
 .................................................
 
 (/usr/share/texlive/texmf-dist/tex/latex/euler/euler.sty
@@ -881,23 +867,23 @@ LaTeX Warning: Unused global option(s):
 (./book.aux)
 \openout1 = `book.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Try loading font information for T1+fds on input line 76.
- (/usr/share/texlive/texmf-dist/tex/latex/droid/t1fds.fd
-File: t1fds.fd 2011/09/11 Fontinst v1.933 font definitions for T1/fds.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 72.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -928,7 +914,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box50
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 72.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -940,52 +926,55 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 76.
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
 (./book.out) (./book.out)
 \@outlinefile=\write4
 \openout4 = `book.out'.
 
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 76.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 72.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 76.
+(Font)              `operators' in the math version `normal' on input line 72.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/cmr/m/n on input line 76.
+(Font)                  OT1/cmr/m/n --> T1/cmr/m/n on input line 72.
 LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 76.
+(Font)              `operators' in the math version `bold' on input line 72.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmr/m/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> T1/cmr/m/n on input line 72.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/cmr/m/n --> T1/cmr/bx/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 76.
+(Font)                  T1/cmr/m/n --> T1/cmr/bx/n on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 76.
+(Font)                  OT1/cmr/bx/n --> T1/cmr/bx/n on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/fds/m/n on input line 76.
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/fds/m/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 76.
+(Font)                  OT1/cmss/bx/n --> T1/cmss/m/n on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/cmr/m/it on input line 76.
+(Font)                  OT1/cmr/m/it --> T1/cmr/m/it on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/cmr/m/it on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 76.
+(Font)                  OT1/cmr/bx/it --> T1/cmr/m/it on input line 72.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/fds/m/n --> T1/fds/bx/n on input line 76.
+(Font)                  T1/cmss/m/n --> T1/cmss/bx/n on input line 72.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/cmr/m/it --> T1/cmr/bx/it on input line 76.
+(Font)                  T1/cmr/m/it --> T1/cmr/bx/it on input line 72.
  (../../Templates/booktemplate.tex
-LaTeX Font Info:    Try loading font information for U+eur on input line 11.
 
+LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <17.28> not available
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 11.
+
+LaTeX Font Info:    Try loading font information for U+eur on input line 11.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueur.fd
 File: ueur.fd 2013/01/14 v3.01 Euler Roman
 )
@@ -1003,17 +992,9 @@ LaTeX Font Info:    Try loading font information for U+euex on input line 11.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuex.fd
 File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
-)
-LaTeX Font Info:    Font shape `T1/fds/bx/n' in size <12> not available
-(Font)              Font shape `T1/fds/b/n' tried instead on input line 18.
-LaTeX Font Info:    Font shape `T1/fds/m/it' in size <12> not available
-(Font)              Font shape `T1/fds/m/sl' tried instead on input line 22.
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+)) [1{/home/rakel/.texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-LaTeX Font Info:    Font shape `T1/fds/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/fds/b/n' tried instead on input line 82.
-
 (../Chapters/1.Revision/LinearEquation/Linear Equation.tex
 <../Chapters/1.Revision/LinearEquation/pic/1.png, id=26, 506.693pt x 506.693pt>
 File: ../Chapters/1.Revision/LinearEquation/pic/1.png Graphic file (type png)
@@ -1034,31 +1015,31 @@ line 25.
 (pdftex.def)             Requested size: 137.87695pt x 142.87718pt.
  [8 <../Chapters/2.Vectors/Vectors/pic/1.png>]) [9] (../Chapters/2.Vectors/Vect
 orOperations/VectorOperations.tex
-LaTeX Font Info:    Try loading font information for OMS+fds on input line 24.
-LaTeX Font Info:    No file OMSfds.fd. on input line 24.
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 24.
+
+LaTeX Font Info:    No file OMScmss.fd. on input line 24.
 
 
-LaTeX Font Warning: Font shape `OMS/fds/m/n' undefined
+LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 24.
 
 
-<../Chapters/2.Vectors/VectorOperations/pic/3.png, id=94, 139.722pt x 232.87pt>
+<../Chapters/2.Vectors/VectorOperations/pic/3.png, id=93, 139.722pt x 232.87pt>
 File: ../Chapters/2.Vectors/VectorOperations/pic/3.png Graphic file (type png)
 <use ../Chapters/2.Vectors/VectorOperations/pic/3.png>
 Package pdftex.def Info: ../Chapters/2.Vectors/VectorOperations/pic/3.png used 
 on input line 36.
 (pdftex.def)             Requested size: 77.55644pt x 129.26213pt.
  [10 <../Chapters/2.Vectors/VectorOperations/pic/3.png>]
-<../Chapters/2.Vectors/VectorOperations/pic/1.png, id=100, 149.358pt x 128.48pt
->
+<../Chapters/2.Vectors/VectorOperations/pic/1.png, id=99, 149.358pt x 128.48pt>
 File: ../Chapters/2.Vectors/VectorOperations/pic/1.png Graphic file (type png)
- <use ../Chapters/2.Vectors/VectorOperations/pic/1.png>
+<use ../Chapters/2.Vectors/VectorOperations/pic/1.png>
 Package pdftex.def Info: ../Chapters/2.Vectors/VectorOperations/pic/1.png used 
 on input line 58.
 (pdftex.def)             Requested size: 103.41034pt x 88.9571pt.
 
-<../Chapters/2.Vectors/VectorOperations/pic/2.png, id=101, 136.51pt x 146.146pt
+<../Chapters/2.Vectors/VectorOperations/pic/2.png, id=100, 136.51pt x 146.146pt
 >
 File: ../Chapters/2.Vectors/VectorOperations/pic/2.png Graphic file (type png)
  <use ../Chapters/2.Vectors/VectorOperations/pic/2.png>
@@ -1066,83 +1047,46 @@ Package pdftex.def Info: ../Chapters/2.Vectors/VectorOperations/pic/2.png used
 on input line 76.
 (pdftex.def)             Requested size: 103.41034pt x 110.71083pt.
 ) [11 <../Chapters/2.Vectors/VectorOperations/pic/1.png> <../Chapters/2.Vectors
-/VectorOperations/pic/2.png>] (../Chapters/2.Vectors/DotProduct/DotProduct.tex
-LaTeX Font Info:    Font shape `T1/fds/bx/it' in size <12> not available
-(Font)              Font shape `T1/fds/b/it' tried instead on input line 34.
-LaTeX Font Info:    Font shape `T1/fds/b/it' in size <12> not available
-(Font)              Font shape `T1/fds/b/sl' tried instead on input line 34.
-
-</home/david/Book/Chapters/2.Vectors/DotProduct/pic/1.png, id=108, 379.016pt x 
-451.286pt>
-File: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/1.png Graphic file (ty
-pe png)
- <use /home/david/Book/Chapters/2.Vectors/DotProduct/pic/1.png>
-Package pdftex.def Info: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/1.p
-ng used on input line 46.
-(pdftex.def)             Requested size: 120.64365pt x 143.6501pt.
-
-</home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png, id=109, 379.016pt x 
-387.046pt>
-File: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png Graphic file (ty
-pe png)
- <use /home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png>
-Package pdftex.def Info: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.p
-ng used on input line 59.
-(pdftex.def)             Requested size: 120.64365pt x 123.20169pt.
-
-[12 </home/david/Book/Chapters/2.Vectors/DotProduct/pic/1.png>]
-</home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png, id=117, 379.016pt x 
-387.046pt>
-File: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png Graphic file (ty
-pe png)
- <use /home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.png>
-Package pdftex.def Info: /home/david/Book/Chapters/2.Vectors/DotProduct/pic/3.p
-ng used on input line 71.
-(pdftex.def)             Requested size: 120.64365pt x 123.20169pt.
-
-[13 </home/david/Book/Chapters/2.Vectors/DotProduct/pic/2.png> </home/david/Boo
-k/Chapters/2.Vectors/DotProduct/pic/3.png>]) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 106.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 106.
+/VectorOperations/pic/2.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
  (./book.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 106.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 106.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
 Package rerunfilecheck Info: File `book.out' has not changed.
 (rerunfilecheck)             Checksum: 40150706BF970162B74B19321E85D7A6;89.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 106.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 17479 strings out of 493029
- 294867 string characters out of 6136234
- 373643 words of memory out of 5000000
- 20759 multiletter control sequences out of 15000+600000
- 67787 words of font info for 94 fonts, out of 8000000 for 9000
+ 17327 strings out of 493029
+ 291737 string characters out of 6136234
+ 373532 words of memory out of 5000000
+ 20652 multiletter control sequences out of 15000+600000
+ 25888 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,15n,40p,10381b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/droid/droid-01.enc}{/usr/share
-/texlive/texmf-dist/fonts/enc/dvips/droid/droid-03.enc}{/usr/share/texmf/fonts/
-enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/droid/DroidSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/droid/DroidSans-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/dr
-oid/DroidSans.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/droid/Droid
-Sans.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/share/texmf/fonts/type1/pu
-blic/cm-super/sfbx0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx12
-00.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on book.pdf (14 pages, 220528 bytes).
+ 35i,15n,40p,10355b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/rakel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0800.600pk> </home/r
+akel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/rakel/.texmf
+-var/fonts/pk/ljfour/jknappen/ec/ecsx1728.600pk> </home/rakel/.texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecsi1200.600pk> </home/rakel/.texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecsx1200.600pk> </home/rakel/.texmf-var/fonts/pk/ljfour/jknappen/ec/
+ecrm1200.600pk> </home/rakel/.texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1728.60
+0pk> </home/rakel/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/euler/eusm10.pfb>
+Output written on book.pdf (11 pages, 146718 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 133 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
