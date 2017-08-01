@@ -1,35 +1,55 @@
 \documentclass{article}
 
-
-% !TeX root = ../Book/Mainfile/book.tex
+\graphicspath{{../Chapters/2.Vectors/CrossProduct/pic/}}
+% !TeX root = ../../../Mainfile/book.tex
 
 
 
 \begin{document}
 
 \color{white}
-\subsection{Topic}
+\subsection{Cross Product}
 \color{black}
 
-\begin{equation}
-x + y \quad \textrm{some example equation related to the topic} 
+\begin{equation*}
+\vect{1,3,2}\times \vect{4,1,1} 
+\end{equation*}
+
+\paragraph{Mynd} 
+
+\paragraph{Cross Product:} When taking the cross product of two vectors, $\vec{u}$ and $\vec{v}$, the result is a \textbf{vector} that is perpendicular to both $\vec{u}$ and $\vec{v}$. Also, the length of the cross product vector is equal to the area of the parallelogram bordered by $\vec{u}$ and $\vec{v}$ as shown on the diagram above.  
+
+\color{theorem} \paragraph{Definition:} \textit{The Cross Product of two 3-dimensional vectors, $\vec{u} = \vect{u_1, u_2, u_3}$ and $\vec{v}=\vect{v_1,v_2,v_3}$}, is defined as the vector
+\begin{equation}\label{eq:13}
+\vec{u}\times\vec{v}= \vect{u_2\cdot v_3-u_3\cdot v_2\quad, u_3\cdot v_1-u_1\cdot v_3\quad, u_1\cdot v_2-u_2\cdot v_1}
 \end{equation}
+\color{black}  
 
-\paragraph{Mynd?} Always try to have a visual representation of the equation
+\paragraph{Uses:} As mentioned above the cross product is a vector perpendicular to both vectors which is useful in many scenarios, for example ....
 
-\paragraph{Topic:} describes. minute details about the equation
+Area. 
 
-\color{theorem} \paragraph{Theorem:} \textit{Definition of "Topic"} \color{black}  theorem + tab
+\paragraph{Example:} Let's calculate the cross product of $\vec{u}=\vect{1,7,5}$ and $\vec{v}=\vect{2,11,4}$. We simply plug the correct values into \ref{eq:13}
 
-\paragraph{Uses:} What is it be used for in linear algebra
+\begin{align*}
+\vect{1,7,5}\times\vect{2,11,4} &= \vect{7\cdot 4 - 5\cdot11\quad, 5\cdot2 - 1\cdot4\quad, 1\cdot11 - 7\cdot2}\\
+&=\vect{-27, 6, -3 }
+\end{align*}
 
-\paragraph{Example:} "We can use \textbf{this} to calculate \textbf{that}", followed by an example
+This means that the area of the parallelogram bordered by $\vec{u}$ and $\vec{v}$ is 
 
-\paragraph{Mynd?} Always try to have a visual along with the example
+\begin{align*}
+|\vec{u}\times \vec{v}| &= |\vect{-27, 6,-3}|\\
+&= \sqrt{(-27)^2+6^2+(-3)^2}\\
+&=\sqrt{774}\\
+&\approx 27.82
+\end{align*}
 
-\paragraph{Exercise:} Exercise for the reader
+
+\paragraph{Exercise:} Do the same for $\vec{u} = \vect{6,3,1}$ and $\vec{v} = \vect{0,2,5}$.
 
 
+%Only 3d vectors
 
 
 
