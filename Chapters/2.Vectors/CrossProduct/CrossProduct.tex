@@ -11,38 +11,40 @@
 \subsection{Cross Product}
 \color{black}
 
+\begin{minipage}{0.45\textwidth}
+\begin{figure}[H]
 \begin{equation*}
-\vect{1,3,2}\times \vect{4,1,1} 
+\color{groen} v \color{black}\times \color{rooj} u \color{black} = \color{groen}\\ \icol{2\\0\\1}\color{black}\times \color{rooj} \icol{2\\ 1 \\ 2} \color{black}\\
+= \color{blou} \icol{-1\\6\\2}\color{black}
 \end{equation*}
+\end{figure}
+\end{minipage} \hfill
+\begin{minipage}{0.55\textwidth}
+\includegraphics[width = 0.9\linewidth]{1.png}
+\end{minipage}
 
-\paragraph{Mynd} 
-
-\paragraph{Cross Product:} When taking the cross product of two vectors, $\vec{u}$ and $\vec{v}$, the result is a \textbf{vector} that is perpendicular to both $\vec{u}$ and $\vec{v}$. Also, the length of the cross product vector is equal to the area of the parallelogram bordered by $\vec{u}$ and $\vec{v}$ as shown on the diagram above.  
+\paragraph{Cross Product:} The \textbf{cross product} of two vectors, $\vec{u}$ and $\vec{v}$, returns a \textbf{vector} that is \textbf{perpendicular to both $\vec{u}$ and $\vec{v}$}, and its length is equal to the area of the parallelogram formed by $\vec{u}$ and $\vec{v}$
 
 \color{theorem} \paragraph{Definition:} \textit{The Cross Product of two 3-dimensional vectors, $\vec{u} = \vect{u_1, u_2, u_3}$ and $\vec{v}=\vect{v_1,v_2,v_3}$}, is defined as the vector
-\begin{equation}\label{eq:13}
+\begin{equation}\label{eq:crossProduct}
 \vec{u}\times\vec{v}= \vect{u_2\cdot v_3-u_3\cdot v_2\quad, u_3\cdot v_1-u_1\cdot v_3\quad, u_1\cdot v_2-u_2\cdot v_1}
 \end{equation}
 \color{black}  
 
-\paragraph{Uses:} As mentioned above the cross product is a vector perpendicular to both vectors which is useful in many scenarios, for example ....
-
-Area. 
-
-\paragraph{Example:} Let's calculate the cross product of $\vec{u}=\vect{1,7,5}$ and $\vec{v}=\vect{2,11,4}$. We simply plug the correct values into \ref{eq:13}
+\paragraph{Example:} Let's calculate the cross product of the vectors \color{groen} $\vec{u}=\vect{2,0,1}$ \color{black}and \color{rooj} $\vec{v}=\vect{2,1,-2}$ \color{black} using \ref{eq:crossProduct}
 
 \begin{align*}
-\vect{1,7,5}\times\vect{2,11,4} &= \vect{7\cdot 4 - 5\cdot11\quad, 5\cdot2 - 1\cdot4\quad, 1\cdot11 - 7\cdot2}\\
-&=\vect{-27, 6, -3 }
+\color{groen} \vect{2,0,1} \color{black} \times \color{rooj} \vect{2,1,-2}\color{black} &= 
+\icol{(0\cdot -2) - (1\cdot 1) \\ (1\cdot 2) - (2 \cdot -2) \\ (2 \cdot 2) - (0 \cdot 1)}
+=\vect{-1,6,2}
 \end{align*}
 
-This means that the area of the parallelogram bordered by $\vec{u}$ and $\vec{v}$ is 
+and the area of the parallelogram
 
 \begin{align*}
-|\vec{u}\times \vec{v}| &= |\vect{-27, 6,-3}|\\
-&= \sqrt{(-27)^2+6^2+(-3)^2}\\
-&=\sqrt{774}\\
-&\approx 27.82
+|\vec{u}\times \vec{v}| &= |\vect{-1,6,2}|\\
+&= \sqrt{(-1)^2+6^2+2^2}\\
+&=\sqrt{41}
 \end{align*}
 
 
