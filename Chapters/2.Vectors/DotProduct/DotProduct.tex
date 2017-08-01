@@ -43,7 +43,7 @@ where $\theta_{uv}$ is the angle between $\vec{u}$ and $\vec{v}$.
 \end{minipage} \hfill
 \begin{minipage}{0.45\textwidth}
 \begin{figure}[H]
-\includegraphics[width = 0.7\linewidth]{2.png}
+\includegraphics[width = 0.7\linewidth]{1.png}
 \end{figure}
 \end{minipage}
 
@@ -56,7 +56,7 @@ where $\theta_{uv}$ is the angle between $\vec{u}$ and $\vec{v}$.
 \end{minipage} \hfill
 \begin{minipage}{0.45\textwidth}
 \begin{figure}[H]
-\includegraphics[width = 0.7\linewidth]{3.png}
+\includegraphics[width = 0.7\linewidth]{2.png}
 \end{figure}
 \end{minipage}
 
@@ -68,7 +68,7 @@ where $\theta_{uv}$ is the angle between $\vec{u}$ and $\vec{v}$.
 \end{minipage} \hfill
 \begin{minipage}{0.45\textwidth}
 \begin{figure}[H]
-\includegraphics[width = 0.7\linewidth]{4.png}
+\includegraphics[width = 0.7\linewidth]{3.png}
 \end{figure}
 \end{minipage}
 
@@ -76,54 +76,42 @@ where $\theta_{uv}$ is the angle between $\vec{u}$ and $\vec{v}$.
 
 The dot product can even help us find the exact angle between the vectors using the equation in the definition above. If we isolate $\cos \theta_{uv}$ in the equation we get 
 
-\[
+\begin{equation} \label{eq:angleDot}
 \cos\theta_{uv}=\frac{\vec{u}\bullet\vec{v}}{|\vec{u}|\cdot|\vec{v}|}
+\end{equation}
+
+\paragraph{Example:} 
+
+We're gonna find the angle between $\vec{u} = \icol{-4 \\ 2 \\ 8}$
+
+and $\vec{v} = \icol{-3 \\ 5 \\ 1}$.
+
+First we find the dot-product between them
+
+\begin{align*}
+\vec{u}\bullet\vec{v} &= (-4\cdot -3)+(2\cdot 5)+(8\cdot 1)\\
+&= 12+10+8=30
+\end{align*}
+
+We also need their length
+
+\[
+|\vec{u}| = \sqrt{(-4)^2+2^2+8^2} = \sqrt{84} 
+\]
+\[
+|\vec{v}| = \sqrt{(-3)^2+5^2+1^2} = \sqrt{35} 
 \]
 
-\paragraph{Examples:} 
+using \eqref{eq:angleDot}
+\[
+\cos \theta_{uv} = \frac{30}{\sqrt{84}\cdot\sqrt{35}}
+\]
 
-Let $\vec{u} = \vect{-4,2,8}$ and $\vec{v} = \vect{-3,5,1}$.
+we get 
 
-\begin{enumerate}
-	\item \textit{Calculate the dot product $\vec{u}\bullet\vec{v}$.}
-
-	
-	\begin{align*}
-	\vec{u}\bullet\vec{v} &= (-4\cdot -3)+(2\cdot 5)+(8\cdot 1)\\
-	&= 12+10+8\\
-	&=30
-	\end{align*}
-
-	\item \textit{What does the dot product tell us about the angle between the vectors?}
-
-	The dot product is positive so the angle between the vectors is less than $90^\circ$
-	
-	\item \textit{Calculate the exact angle between these two vectors.} 
-
-	To do this we need the dot product of the vectors, which is $30$, as well as the product of their lengths. Let's find that: 
-
-	\[
-	|\vec{u}| = \sqrt{(-4)^2+2^2+8^2} = \sqrt{84} 
-	\]
-	\[
-	|\vec{v}| = \sqrt{(-3)^2+5^2+1^2} = \sqrt{35} 
-	\]
-
-	so $|\vec{u}|\cdot |\vec{v}| = \sqrt{84}\cdot\sqrt{35}$. 
-
-	Plugging these values into our equation gives us 
-	
-	\[
-	\cos \theta_{uv} = \frac{30}{\sqrt{84}\cdot\sqrt{35}}
-	\]
-
-	Now we can find $\theta_{uv}$: 
-
-	\[
-	\theta_{uv}=\arccos\Bigg(\frac{30}{\sqrt{84}\cdot\sqrt{35}}\Bigg) \approx 56.4^\circ
-	\]
-\end{enumerate}
-
+\[
+\theta_{uv} = \cos^{-1} \bigg( \frac{30}{\sqrt{84}\cdot\sqrt{35}}\bigg)
+\]
 
 
 
